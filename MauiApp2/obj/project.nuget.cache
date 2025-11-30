@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "+eRJ1wPH4Ys=",
+  "success": false,
+  "projectFilePath": "/Users/pruteanu/Desktop/NET vscode/MauiApp2/MauiApp2/MauiApp2.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1015",
+      "level": "Error",
+      "message": "The following PackageReference item(s) do not have a version specified: Microsoft.Maui.Controls, Microsoft.Maui.Controls.Compatibility",
+      "projectPath": "/Users/pruteanu/Desktop/NET vscode/MauiApp2/MauiApp2/MauiApp2.csproj",
+      "filePath": "/Users/pruteanu/Desktop/NET vscode/MauiApp2/MauiApp2/MauiApp2.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

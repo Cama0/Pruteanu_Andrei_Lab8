@@ -1,0 +1,231 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-android21.0": {},
+    "net8.0-ios1.0": {},
+    "net8.0-maccatalyst1.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0-android21.0": [
+      "Microsoft.Extensions.Logging.Debug >= 8.0.1",
+      "Microsoft.Maui.Controls",
+      "Microsoft.Maui.Controls.Compatibility"
+    ],
+    "net8.0-ios1.0": [
+      "Microsoft.Extensions.Logging.Debug >= 8.0.1",
+      "Microsoft.Maui.Controls",
+      "Microsoft.Maui.Controls.Compatibility"
+    ],
+    "net8.0-maccatalyst1.0": [
+      "Microsoft.Extensions.Logging.Debug >= 8.0.1",
+      "Microsoft.Maui.Controls",
+      "Microsoft.Maui.Controls.Compatibility"
+    ]
+  },
+  "packageFolders": {
+    "/Users/pruteanu/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/pruteanu/Desktop/NET vscode/MauiApp2/MauiApp2/MauiApp2.csproj",
+      "projectName": "MauiApp2",
+      "projectPath": "/Users/pruteanu/Desktop/NET vscode/MauiApp2/MauiApp2/MauiApp2.csproj",
+      "packagesPath": "/Users/pruteanu/.nuget/packages/",
+      "outputPath": "/Users/pruteanu/Desktop/NET vscode/MauiApp2/MauiApp2/obj/",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "configFilePaths": [
+        "/Users/pruteanu/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-android",
+        "net8.0-ios",
+        "net8.0-maccatalyst"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-android21.0": {
+          "targetAlias": "net8.0-android",
+          "projectReferences": {}
+        },
+        "net8.0-ios1.0": {
+          "targetAlias": "net8.0-ios",
+          "projectReferences": {}
+        },
+        "net8.0-maccatalyst1.0": {
+          "targetAlias": "net8.0-maccatalyst",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net8.0-android21.0": {
+        "targetAlias": "net8.0-android",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[8.0.1, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "(, )"
+          },
+          "Microsoft.Maui.Controls.Compatibility": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+      },
+      "net8.0-ios1.0": {
+        "targetAlias": "net8.0-ios",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[8.0.1, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "(, )"
+          },
+          "Microsoft.Maui.Controls.Compatibility": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+      },
+      "net8.0-maccatalyst1.0": {
+        "targetAlias": "net8.0-maccatalyst",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[8.0.1, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "(, )"
+          },
+          "Microsoft.Maui.Controls.Compatibility": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1015",
+      "level": "Error",
+      "message": "The following PackageReference item(s) do not have a version specified: Microsoft.Maui.Controls, Microsoft.Maui.Controls.Compatibility"
+    }
+  ]
+}
