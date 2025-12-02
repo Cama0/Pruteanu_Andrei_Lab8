@@ -1,11 +1,27 @@
-﻿namespace MauiApp2;
+﻿using MauiApp2.Data;
+using System.IO;
+
+namespace MauiApp2;
 
 public partial class App : Application
 {
-	public App()
-	{
-		InitializeComponent();
+    static ShoppingListDatabase database;
 
-		MainPage = new AppShell();
-	}
+    public static ShoppingListDatabase Database
+    {
+        get
+        {
+            if (database == null)
+            {
+                database = new ShoppingListDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "ShoppingList.db3"));
+            }
+            return database;
+        }
+    }
+
+    public App()
+    {
+        InitializeComponent();
+        MainPage = new AppShell();
+    }
 }
